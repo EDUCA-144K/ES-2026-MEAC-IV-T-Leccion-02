@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lección 2 – El llamado de un profeta | Guía MEAC Interactiva</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f4f7f9; padding:20px; position:relative }
+    h1 { text-align:center; color:#2c3e50 }
+    .versiculo { background:#fff; border-left:5px solid #34495e; padding:15px; margin-bottom:20px; font-style:italic }
+    .boton, .sub-boton, .volver { display:flex; align-items:center; gap:10px; width:100%; padding:15px; margin:10px 0; font-size:16px; background:#3498db; color:#fff; border:none; border-radius:8px; cursor:pointer; text-align:left }
+    .sub-boton{ background:#27ae60 }
+    .volver{ background:#7f8c8d }
+    .boton:hover, .sub-boton:hover, .volver:hover{ opacity:.9 }
+    .contenido, .sub-contenido{ display:none; padding:15px; background:#fff; border:2px solid #2980b9; border-radius:8px; margin-bottom:20px }
+    .color-dot{ width:14px; height:14px; border-radius:50%; display:inline-block }
+    .dot-yellow{ background:yellow }
+    .dot-blue{ background:navy }
+    .dot-green{ background:green }
+    .dot-red{ background:red }
+    ul{ margin-top:10px }
+    .marca{ position:fixed; bottom:10px; right:20px; color:#888; font-weight:bold }
+    .ejemplo{ color:#555; font-style:italic; margin-top:8px }
+    .desarrollo{ margin-top:6px; color:#333; font-size:14px }
+    .nota{ font-size:13px; color:#555; margin-top:8px }
+  </style>
+</head>
+<body>
+  <h1>Lección 2: El llamado de un profeta – Guía Interactiva MEAC</h1>
+
+  <div class="versiculo">
+    «Después oí la voz del Señor, que dijo: “¿A quién enviaré? ¿Quién irá de nuestra parte?”. Entonces respondí: “Aquí estoy, envíame a mí”»<br/>
+    <strong>Isaías 6:8</strong>
+  </div>
+
+  <div id="inicio">
+    <button class="boton" onclick="mostrarSeccion('motiva')"><span class="color-dot dot-yellow"></span> MOTIVA – Mueve el corazón</button>
+    <button class="boton" onclick="mostrarSeccion('explora')"><span class="color-dot dot-blue"></span> EXPLORA – Escudriña la Palabra</button>
+    <button class="boton" onclick="mostrarSeccion('aplica')"><span class="color-dot dot-green"></span> APLICA – Analiza tu comunión con Dios</button>
+    <button class="boton" onclick="mostrarSeccion('crea')"><span class="color-dot dot-red"></span> CREA – Comparte y testifica</button>
+  </div>
+
+  <div id="motiva" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('motiva1')">❓ Pregunta inicial</button>
+    <button class="sub-boton" onclick="mostrarDetalle('motiva2')">🤝 Actividad grupal</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="motiva1" class="sub-contenido">
+    <p><strong>Pregunta:</strong> Cuando Dios llama a una persona para cumplir una misión, ¿qué suele ser más difícil: creer en su promesa, abandonar la comodidad, enfrentar la oposición, reconocer la propia indignidad o permanecer fiel cuando no se entienden todas las circunstancias? ¿Por qué?</p>
+    <p class="ejemplo">Ejemplo 1: “Puede ser difícil enfrentar la oposición, porque un mensaje verdadero no siempre será aceptado con agrado”.</p>
+    <p class="ejemplo">Ejemplo 2: “También cuesta reconocer que somos débiles, pero aun así Dios puede limpiarnos y usarnos como hizo con Isaías”.</p>
+  </div>
+
+  <div id="motiva2" class="sub-contenido">
+    <p><strong>Dinámica:</strong> El maestro invita a cada persona completar una frase breve: “Dios puede usarme para…” o “Respondería al llamado de Dios si…”. Cada participante responde desde su asiento, sin dividir el grupo y usando únicamente su Biblia o el folleto de estudio.</p>
+    <p class="ejemplo">Ejemplo 1: “Dios puede usarme para compartir esperanza con una persona que se siente desanimada”.</p>
+    <p class="ejemplo">Ejemplo 2: “Respondería al llamado de Dios si confío más en su poder que en mis propias limitaciones”.</p>
+  </div>
+
+  <div id="explora" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('explora1')">📖 Textos clave</button>
+    <button class="sub-boton" onclick="mostrarDetalle('explora2')">💬 Preguntas de estudio</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="explora1" class="sub-contenido">
+    <p>
+      Génesis 15:6<br/>
+      <span class="desarrollo">Abraham creyó a Dios y esa fe le fue contada por justicia. Su llamado profético y misionero comenzó con una relación de confianza en la promesa divina, no con una perfección personal.</span><br/>
+
+      Gálatas 3:6-9<br/>
+      <span class="desarrollo">Pablo presenta a Abraham como padre de quienes viven por fe. La promesa dada al patriarca incluía la bendición para todas las naciones y anticipaba el evangelio de salvación en Cristo.</span><br/>
+
+      Hebreos 11:8<br/>
+      <span class="desarrollo">Abraham obedeció y salió sin saber exactamente adónde iba. El llamado de Dios requiere una fe dispuesta a avanzar aun cuando el camino completo todavía no ha sido revelado.</span><br/>
+
+      1 Reyes 18:19-39<br/>
+      <span class="desarrollo">Elías confrontó la idolatría de Israel en el monte Carmelo y llamó al pueblo a decidir a quién serviría. Dios confirmó el mensaje del profeta y condujo a la nación a reconocer nuevamente al Señor.</span><br/>
+
+      Malaquías 4:5-6<br/>
+      <span class="desarrollo">El mensaje de Elías tiene como propósito volver los corazones y preparar al pueblo para el día del Señor. El verdadero reavivamiento comienza en el corazón, alcanza el hogar y fortalece la misión de la iglesia.</span><br/>
+
+      Isaías 6:1-8<br/>
+      <span class="desarrollo">Isaías contempló la santidad de Dios, reconoció su pecado, recibió limpieza y luego respondió al llamado. Antes de enviar al profeta, Dios transformó su corazón y lo capacitó para la misión.</span><br/>
+
+      Isaías 53:3-7<br/>
+      <span class="desarrollo">Isaías anunció que el Mesías cargaría nuestros dolores y pecados, y sería llevado como cordero al matadero. La misión profética no solo denuncia el pecado, sino que revela la esperanza de salvación por medio de Cristo.</span><br/>
+
+      Isaías 53:10-12<br/>
+      <span class="desarrollo">El Siervo sufriente justificaría a muchos y llevaría sus pecados. Esta profecía muestra que el centro del mensaje profético es la obra redentora de Jesús en favor de la humanidad.</span><br/>
+
+      Daniel 2:46-48<br/>
+      <span class="desarrollo">La fidelidad de Daniel y la revelación del sueño llevaron a Nabucodonosor a reconocer al Dios del cielo. La vida del profeta confirmó el mensaje que proclamaba.</span><br/>
+
+      Daniel 4:18; 5:13-14; 6:25-27<br/>
+      <span class="desarrollo">Distintos gobernantes reconocieron en Daniel sabiduría, integridad y la acción del Dios verdadero. Su testimonio demuestra que la fidelidad cotidiana puede abrir puertas para hablar de Dios ante personas que no lo conocen.</span><br/>
+
+      Marcos 1:2-5<br/>
+      <span class="desarrollo">Juan el Bautista cumplió la profecía al preparar el camino del Señor y llamar al arrepentimiento. Su mensaje buscaba formar un pueblo dispuesto a recibir a Cristo.</span><br/>
+
+      Mateo 11:1-6<br/>
+      <span class="desarrollo">Desde la prisión, Juan recibió de Jesús evidencias de que el reino estaba avanzando. Cristo fortaleció su fe recordándole las obras que confirmaban el cumplimiento de las profecías mesiánicas.</span><br/>
+
+      Apocalipsis 14:6-12<br/>
+      <span class="desarrollo">La iglesia actual está llamada a proclamar un mensaje profético de alcance mundial: el evangelio eterno, la adoración al Creador, el juicio y la fidelidad a los mandamientos de Dios y a la fe de Jesús.</span><br/>
+
+      Hechos 1:8<br/>
+      <span class="desarrollo">El Espíritu Santo concede poder para ser testigos de Cristo. Ninguna persona puede cumplir por sí sola el llamado misionero; necesita la presencia y la capacitación divina.</span>
+    </p>
+
+    <p class="nota"><strong>Resumen de la lección:</strong> El mensaje central de esta semana es que <strong>Dios llama a personas imperfectas, las transforma y las envía para restaurar la fidelidad de su pueblo y anunciar la esperanza de salvación</strong>. Génesis 15:6, Gálatas 3:6-9 y Hebreos 11:8 presentan a Abraham como un hombre que creyó, obedeció y salió por fe, convirtiéndose en defensor del pacto y portador de una promesa destinada a todas las naciones. En 1 Reyes 18:19-39, Elías confrontó la idolatría y llamó a Israel a decidirse por el Señor; Malaquías 4:5-6 muestra que ese mensaje busca volver los corazones y preparar un pueblo para el día de Dios. Isaías 6:1-8 enseña que el llamado comienza con el encuentro con la santidad divina, la confesión, la limpieza y la respuesta: “Aquí estoy, envíame a mí”. Isaías 53 revela que el centro de toda misión profética es Cristo, quien cargaría nuestros pecados y daría su vida por la humanidad. Daniel 2:46-48; 4:18; 5:13-14 y 6:25-27 muestran que la fidelidad personal del profeta dio testimonio ante gobernantes paganos y confirmó que el Dios del cielo dirige la historia. Marcos 1:2-5 presenta a Juan el Bautista preparando el camino mediante un llamado al arrepentimiento, y Mateo 11:1-6 muestra cómo Jesús fortaleció su fe en medio de la prisión. Finalmente, Apocalipsis 14:6-12 y Hechos 1:8 recuerdan que el pueblo de Dios también ha sido llamado a proclamar un mensaje de esperanza con el poder del Espíritu Santo. Así, la lección invita a escuchar la voz profética, mantener los ojos fijos en Jesús y responder con disponibilidad, fidelidad y valor.</p>
+  </div>
+
+  <div id="explora2" class="sub-contenido">
+    <ul>
+      <li>Según Génesis 15:6, Gálatas 3:6-9 y Hebreos 11:8, ¿qué cualidades hicieron a Abraham apto para servir a Dios?</li>
+      <p class="ejemplo">Ejemplo 1: “Creyó en la promesa de Dios y obedeció aun cuando no conocía todos los detalles del camino”.</p>
+      <p class="ejemplo">Ejemplo 2: “Su servicio se basó en la fe y en una relación de pacto, no en que fuera una persona sin defectos”.</p>
+
+      <li>¿Qué enseña 1 Reyes 18:19-39 acerca de la función de un profeta en tiempos de apostasía?</li>
+      <p class="ejemplo">Ejemplo 1: “El profeta llama al pueblo a abandonar los ídolos y decidirse nuevamente por Dios”.</p>
+      <p class="ejemplo">Ejemplo 2: “También enfrenta el error con valor, pero con el propósito de restaurar la fidelidad del pueblo”.</p>
+
+      <li>¿Qué pasos aparecen en el llamado de Isaías en Isaías 6:1-8?</li>
+      <p class="ejemplo">Ejemplo 1: “Primero contempló la santidad de Dios, luego reconoció su pecado y recibió limpieza”.</p>
+      <p class="ejemplo">Ejemplo 2: “Después de ser perdonado, escuchó el llamado y respondió voluntariamente: ‘Aquí estoy, envíame a mí’”.</p>
+
+      <li>¿Qué muestra Isaías 53 acerca del contenido central del mensaje profético?</li>
+      <p class="ejemplo">Ejemplo 1: “Muestra que el Mesías sufriría en nuestro lugar y cargaría nuestros pecados”.</p>
+      <p class="ejemplo">Ejemplo 2: “La profecía no se limita a advertir; también anuncia la solución divina al pecado mediante Cristo”.</p>
+
+      <li>¿Qué podemos aprender de Daniel y Juan el Bautista acerca de permanecer fieles en circunstancias difíciles?</li>
+      <p class="ejemplo">Ejemplo 1: “Daniel fue fiel en decisiones pequeñas y grandes, y su vida dio testimonio ante personas que no conocían a Dios”.</p>
+      <p class="ejemplo">Ejemplo 2: “Juan permaneció fiel aun en la prisión y recibió de Jesús evidencias para fortalecer su confianza”.</p>
+    </ul>
+  </div>
+
+  <div id="aplica" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('aplica1')">🧠 Reflexión personal</button>
+    <button class="sub-boton" onclick="mostrarDetalle('aplica2')">✨ Actividad de compromiso</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="aplica1" class="sub-contenido">
+    <p><strong>Reflexión:</strong> ¿Qué aspecto del llamado de Dios necesitas asumir con mayor seriedad: abandonar un ídolo, confiar en una promesa, corregir una conducta, compartir el evangelio, fortalecer tu hogar o permanecer fiel durante una prueba? ¿Qué paso concreto puedes dar?</p>
+    <p class="ejemplo">Ejemplo 1: “Necesito dejar una costumbre que ocupa demasiado espacio en mi vida y debilita mi comunión con Dios”.</p>
+    <p class="ejemplo">Ejemplo 2: “Debo compartir una palabra de esperanza con alguien, aunque sienta que no tengo suficiente capacidad”.</p>
+  </div>
+
+  <div id="aplica2" class="sub-contenido">
+    <p><strong>Actividad guiada:</strong><br/>
+      1) El maestro pide que todos guarden un momento de silencio y piensen en una misión concreta que Dios podría estar poniéndoles delante.<br/>
+      2) El maestro invita a cada persona completar una frase breve: “Señor, aquí estoy para…” o “Señor, necesito tu poder para…”.<br/>
+      3) El maestro cierra con una oración general pidiendo limpieza, valor, fidelidad, discernimiento y poder del Espíritu Santo.</p>
+    <p class="ejemplo">Ejemplo 1: “Señor, aquí estoy para animar a una persona que se está alejando de la iglesia”.</p>
+    <p class="ejemplo">Ejemplo 2: “Señor, necesito tu poder para mantenerme fiel cuando mi fe sea cuestionada”.</p>
+  </div>
+
+  <div id="crea" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('crea1')">📌 Desafío semanal</button>
+    <button class="sub-boton" onclick="mostrarDetalle('crea2')">✍️ Actividad grupal final</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="crea1" class="sub-contenido">
+    <p><strong>Desafío:</strong> Durante esta semana, elige una persona o situación que necesite una palabra de fe, arrepentimiento o esperanza. Ora primero, busca un texto bíblico relacionado con esa necesidad y comparte el mensaje con humildad y amor.</p>
+    <p class="ejemplo">Ejemplo 1: “Compartiré Isaías 53 con alguien que necesita comprender que Jesús cargó con nuestros pecados”.</p>
+    <p class="ejemplo">Ejemplo 2: “Usaré Marcos 1:2-5 para invitar a una persona a prepararse espiritualmente y volver a Dios”.</p>
+  </div>
+
+  <div id="crea2" class="sub-contenido">
+    <p><strong>Actividad grupal:</strong><br/>
+      El maestro invita a cada persona completar una frase breve: “Como grupo respondemos al llamado de Dios…”. Luego reúne las ideas principales y todos repiten juntos una declaración final de compromiso.</p>
+    <p class="ejemplo">Ejemplo 1: “Como grupo respondemos al llamado de Dios escuchando su Palabra y compartiendo esperanza con fidelidad”.</p>
+    <p class="ejemplo">Ejemplo 2: “Como grupo respondemos al llamado de Dios manteniendo los ojos en Jesús y sirviendo con el poder del Espíritu Santo”.</p>
+  </div>
+
+  <div class="marca">Educa144k</div>
+
+  <script>
+    function mostrarSeccion(id){ ocultarTodo(); document.getElementById('inicio').style.display='none'; document.getElementById(id).style.display='block'; }
+    function mostrarDetalle(id){ document.querySelectorAll('.sub-contenido').forEach(el => el.style.display='none'); document.getElementById(id).style.display='block'; }
+    function volverInicio(){ ocultarTodo(); document.getElementById('inicio').style.display='block'; }
+    function ocultarTodo(){ document.querySelectorAll('.contenido, .sub-contenido').forEach(el => el.style.display='none'); }
+  </script>
+</body>
+</html>
